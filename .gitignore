@@ -1,0 +1,22 @@
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# Maven build directory
+target/
+dependency-reduced-pom.xml
+
+# IDE files
+.idea/
+*.iml
+
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db 

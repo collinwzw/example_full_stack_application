@@ -1,0 +1,31 @@
+{
+  "name": "cursor-aws-lambda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:frontend": "cd frontend && npm install && npm run build",
+    "predeploy": "npm run build:frontend",
+    "deploy": "cdk deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-cdk/aws-cloudfront": "^1.203.0",
+    "@aws-cdk/aws-cloudfront-origins": "^1.203.0",
+    "@aws-cdk/aws-s3": "^1.203.0",
+    "@aws-cdk/aws-s3-deployment": "^1.203.0",
+    "aws-cdk-lib": "^2.188.0",
+    "constructs": "^10.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "description": ""
+}
